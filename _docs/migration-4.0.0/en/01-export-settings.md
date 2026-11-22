@@ -5,7 +5,7 @@ The wiki asks you to export your settings before updating. If the install goes w
 ## What to do, still on 3.x
 
 1. Make sure you have a master password under **Settings → Protection** and that you remember it. The file is encrypted with it.
-2. Open **Maintenance** (on 3.x, from the menu in the top corner) and tap **Export settings**. Enter the master password.
+2. Open **Maintenance** from the app menu and tap **Export settings**. Enter the master password.
 3. The file is saved to `Internal storage/AAPS/preferences/`, named like `YYYY-MM-DD_time_appname.json`.
 4. Copy the file off the phone: to a computer and to cloud storage.
 

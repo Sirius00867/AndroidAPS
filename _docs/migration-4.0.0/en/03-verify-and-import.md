@@ -6,14 +6,16 @@ Open the menu (☰) at the top left and select **About**. It should say 4.0.0.
 
 ## Do you need to import?
 
-If you installed over the old app with the same keystore, your settings are already on the phone: on start-up, 4.0.0 converts the 3.x setting names to the new ones by itself. In that case **do not import** out of habit; review your settings (steps 5 and 6) and keep the export as a spare backup.
+The official wiki does not give a single answer:
 
-Import the step 1 export only if:
+- The update manual ([UpdateToNewVersion](https://androidaps.readthedocs.io/en/latest/Maintenance/UpdateToNewVersion.html)) says, after installing: *"make sure you have imported your settings"*.
+- The backup page ([ExportImportSettings](https://androidaps.readthedocs.io/en/latest/Maintenance/ExportImportSettings.html)) says that when you update with an APK built with the same keystore *"you should not need to follow this process"*.
 
-- something is missing after the update, or
-- you had to install from scratch (another phone, new keystore, uninstall).
+They fit together if what matters is the result: your settings must be there. When you install over the old app with the same keystore, they stay on the phone, and 4.0.0 converts the old names on start-up. Review your settings (steps 5 and 6). If anything is missing, or if you prefer to follow the update manual to the letter, import the step 1 export.
 
-An import is a **merge**: it writes the values in the file and leaves settings missing from the file untouched. It never deletes anything.
+Importing on the same phone is safe as long as you leave **Also replace pump settings** unticked. An import is a **merge**: it only writes values that change, leaves settings missing from the file untouched and never deletes anything.
+
+If you had to install from scratch (another phone, new keystore or uninstall), importing is required.
 
 ## How to import on 4.0.0
 

@@ -5,7 +5,7 @@ La wiki pide exportar los ajustes antes de actualizar. Si la instalación sale b
 ## Qué hacer, todavía en la 3.x
 
 1. Comprueba que tienes una contraseña maestra en **Ajustes → Protección** y que la recuerdas. El archivo se cifra con ella.
-2. Abre **Mantenimiento** (en la 3.x, desde el menú de la esquina superior) y pulsa **Exportar ajustes**. Introduce la contraseña maestra.
+2. Abre **Mantenimiento** desde el menú de la app y pulsa **Exportar ajustes**. Introduce la contraseña maestra.
 3. El archivo queda en `Almacenamiento interno/AAPS/preferences/`, con un nombre del tipo `AAAA-MM-DD_hora_nombreapp.json`.
 4. Copia ese archivo fuera del teléfono: a un ordenador y a un almacenamiento en la nube.
 

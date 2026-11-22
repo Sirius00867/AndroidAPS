@@ -6,14 +6,16 @@ Abre el menú (☰) arriba a la izquierda y entra en **About** (Acerca de). Debe
 
 ## ¿Hay que importar?
 
-Si instalaste encima con el mismo keystore, los ajustes ya están en el teléfono: al arrancar, la 4.0.0 convierte por sí sola los nombres de ajustes de la 3.x a los nuevos. En ese caso **no importes** por costumbre; revisa los ajustes (pasos 5 y 6) y deja la exportación como copia de reserva.
+La wiki oficial no da una respuesta única:
 
-Importa la exportación del paso 1 solo si:
+- El manual de actualización ([UpdateToNewVersion](https://androidaps.readthedocs.io/en/latest/Maintenance/UpdateToNewVersion.html)) pide, después de instalar: *"make sure you have imported your settings"* (asegúrate de haber importado tus ajustes).
+- La página de copias de seguridad ([ExportImportSettings](https://androidaps.readthedocs.io/en/latest/Maintenance/ExportImportSettings.html)) dice que, si actualizas con un APK firmado con el mismo keystore, *"you should not need to follow this process"* (no deberías necesitar restaurar).
 
-- falta algo después de actualizar, o
-- has tenido que instalar desde cero (otro teléfono, keystore nuevo, desinstalación).
+Las dos encajan si lo que importa es el resultado: que tus ajustes estén. Instalando encima con el mismo keystore siguen en el teléfono, y la 4.0.0 convierte los nombres antiguos al arrancar. Revisa tus ajustes (pasos 5 y 6). Si falta algo, o si prefieres seguir el manual al pie de la letra, importa la exportación del paso 1.
 
-Una importación es una **fusión**: escribe los valores del archivo y deja intactos los ajustes que no aparecen en él. No borra nada.
+Importar en el mismo teléfono es seguro siempre que dejes sin marcar **Also replace pump settings**. Una importación es una **fusión**: solo escribe los valores que cambian, deja intactos los ajustes que no aparecen en el archivo y no borra nada.
+
+Si has tenido que instalar desde cero (otro teléfono, keystore nuevo o desinstalación), la importación es obligatoria.
 
 ## Cómo importar en la 4.0.0
 
